@@ -1,0 +1,171 @@
+/** Services Page Start **/
+/** All Services Details Start **/
+.services-details {
+	margin-top: 80px;
+}
+
+.services-details-heading h1 {
+	text-align: center;
+	font-size: 55px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.services-details-heading p {
+	font-size: 17px;
+	font-family: sans-serif;
+	font-weight: 500;
+	text-align: center;
+	padding: 0px 150px;
+	margin: 20px 0px 30px 0px;
+}
+
+/** For Web Design **/
+.for-web-design {
+	position: relative;
+}
+
+.for-web-design span {
+	position: absolute;
+	top: 130px;
+	left: 0px;
+	font-size: 120px;
+	font-weight: 700;
+	z-index: -1;
+	opacity: 0.2;
+	overflow: hidden;
+}
+
+.web-design-details {
+	margin-top: 130px;
+	padding: 10px 0px 0px 0px;
+}
+
+.web-design-mobile {
+	position: relative;
+}
+
+.web-design-mobile img {
+	position: absolute;
+	right: 0px;
+	top: 44px;
+	width: 40%;
+}
+
+.services-details .web-design-details h1,
+.services-details .web-development-details h1 {
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+.services-details .web-design-details p,
+.services-details .web-development-details p {
+	font-size: 16px;
+	font-family: sans-serif;
+	margin-bottom: 50px;
+}
+
+.services-details .web-design-service-list {
+	margin-top: -15px;
+}
+
+.services-details .web-design-service-list h1 {
+	font-size: 13px;
+	font-weight: 600;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 10px 0px 10px 15px;
+}
+
+/** For Web Development **/
+.for-web-development {
+	position: relative;
+	margin-top: 180px;
+}
+
+.for-web-development span {
+	position: absolute;
+	top: 130px;
+	right: 0px;
+	font-size: 120px;
+	font-weight: 700;
+	z-index: -1;
+	opacity: 0.2;
+	overflow: hidden;
+}
+
+.web-development-mobile {
+	position: relative;
+}
+
+.web-development-mobile img {
+	position: absolute;
+	left: 0px;
+	top: 44px;
+	width: 43%;
+}
+
+/** For Digital MArketing **/
+.for-digital-marketing {
+	position: relative;
+	margin-top: 180px;
+}
+
+.for-digital-marketing span {
+	position: absolute;
+	top: 130px;
+	left: 0px;
+	font-size: 120px;
+	font-weight: 700;
+	z-index: -1;
+	opacity: 0.2;
+	overflow: hidden;
+}
+
+/** For SEO Optimization **/
+.for-seo-optimization {
+	position: relative;
+	margin-top: 180px;
+}
+
+.for-seo-optimization span {
+	position: absolute;
+	top: 130px;
+	right: 0px;
+	font-size: 120px;
+	font-weight: 700;
+	z-index: -1;
+	opacity: 0.2;
+	overflow: hidden;
+}
+
+/** For Graphics Design **/
+.for-graphics-design {
+	position: relative;
+	margin-top: 180px;
+}
+
+.for-graphics-design span {
+	position: absolute;
+	top: 130px;
+	left: 0px;
+	font-size: 120px;
+	font-weight: 700;
+	z-index: -1;
+	opacity: 0.2;
+	overflow: hidden;
+}
+
+/** Service Testimonial Start **/
+.service-testimonial {
+	margin-top: 120px
+}
+
+/** Service Testimonial Start **/
+/** All Services Details End **/
+/** Services Page End **/

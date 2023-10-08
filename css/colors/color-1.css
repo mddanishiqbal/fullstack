@@ -1,0 +1,245 @@
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	cursor: pointer;
+	background: linear-gradient(125deg, #1b68a0 , #58baff);
+}
+
+.site-branding .mdi h2 {
+	color: #0b5a92;
+}
+
+.specs,
+.portfolio .work-box,
+.website-roadmap .card {
+	background: rgba(151, 212, 255, 0.219);
+}
+
+.main-navigation {
+	background: #0d324d;
+}
+
+.main-navigation a {
+	color: #f7f7f7;
+}
+
+.main-navigation a.active {
+	color: #1fa2ff;
+}
+
+.main-navigation a:hover {
+	color: #1fa2ff;
+}
+
+.header-section,
+.second-header-section,
+.site-footer {
+	background-color: #7f5a83;
+	background-image: linear-gradient(315deg, #70c1fc 0%, #0d324d 74%);
+}
+
+.my_language ul li a {
+	background: rgba(156, 214, 255, 0.342);
+	box-shadow: #87cdff 1.95px 1.95px 8px;
+}
+
+.contact_section h3 i,
+.about-info .service-title h5,
+.portfolio .ios-toolbar p a {
+	color: #1b8bdb;
+}
+
+.portfolio_details .portfolio_title_left h1,
+.contact_section h3,
+.contact_section h3 a,
+.web_design h1,
+.web_development h1,
+.custom-add .inner-content p span,
+.custom-add .inner-content h4 a,
+.custom-add-2 .inner-content p span,
+.custom-add-2 .inner-content h4 a,
+.services-details-heading h1,
+.second_title {
+	color: #1b8bdb;
+}
+
+.progress-details .progress-line,
+.custom-add .inner-content a,
+.custom-add-2 .inner-content a {
+	background: #27a0f7;
+}
+
+.progress-details {
+	background: #0e6bad;
+}
+
+.style-switcher-toggler,
+.testimonial-section .carousel-control-prev,
+.testimonial-section .carousel-control-next,
+.genericon-collapse:before {
+	background-color: #0660a0;
+}
+
+.about_carousel_nav,
+.carousel-nav {
+	border-bottom: 2px solid #119cff;
+}
+
+.carousel-nav a,
+.text-box h1 span,
+.about_carousel_nav a {
+	color: #2195e7;
+}
+
+.carousel-nav a.active,
+.about_carousel_nav a.active {
+	color: #3aadff;
+	background: rgba(156, 214, 255, 0.342);
+}
+
+.carousel-nav a:hover,
+.about_carousel_nav a:hover {
+	color: #3aadff;
+}
+
+.specs .website-process h1 {
+	color: #0660a0;
+}
+
+.portfolio h1 span,
+.about-us .about-details h1 span,
+.about-us .count_details .count_no,
+.for_experience .experience_list h1,
+.credentials_list h3 {
+	color: #2195e7;
+}
+
+.about-us .about-details p a {
+	color: #0660a0;
+	text-decoration: underline;
+}
+
+.text-box a:hover {
+	color: #46aef8;
+}
+
+.text-box .second-btn {
+	color: #5a5a5a;
+	background: #eee;
+}
+
+.text-box .second-btn:hover {
+	color: #eee;
+	background: #5a5a5a;
+}
+
+.class-info h3,
+.class-info p a,
+.testimonial-item h3 {
+	color: #0660a0;
+}
+
+.work-content .w-more h1 a,
+.w-title a,
+.work-content .portfolio-name a {
+	color: #0660a0;
+}
+
+.media-29101 .text .category,
+.section-subtitle span {
+	color: #0660a0;
+}
+
+.section-subtitle span:before,
+.section-subtitle span:after {
+	background: #0660a0;
+}
+
+.portfolio_details .recent_project_title,
+.web_design h3,
+.web_development h3 {
+	background: #086db6;
+	border-left: 4px solid #42acf8;
+}
+
+.specs .website-process h1 ion-icon {
+	background: #0660a0;
+}
+
+.service-title h5 {
+	color: #0660a0;
+}
+
+.for-web-design span,
+.for-web-development span {
+	color: #0660a0;
+}
+
+.setting_footer h1 span,
+#preloader h1,
+.about-us .title-background h1,
+.portfolio .title-background h1,
+.content .text span,
+.testimonial-section .title-background h1 {
+	color: #1583d1e0;
+}
+
+.contact_form button,
+.style-switcher-item p,
+.preloader_item .img-box,
+.testimonial-section .img-box,
+.testimonial-section .decoration-imgs-item,
+.testimonial-section .decoration-circle-item {
+	background: #0660a0;
+}
+
+.preloader_item .img-box::before,
+.preloader_item .img-box::after,
+.testimonial-section .img-box::before,
+.testimonial-section .img-box::after {
+	border: 1px solid #0660a0;
+}
+
+.preloader_item .img-box::before,
+.testimonial-section .img-box::before {
+	border-left: 1px solid transparent;
+}
+
+.preloader_item .img-box::after,
+.testimonial-section .img-box::after {
+	border-right: 1px solid transparent;
+}
+
+.ribbon.top-right.ribbon-default>small {
+	background-image: -moz-linear-gradient(top, #0660a0 0%, #0660a0 100%);
+	background-image: -webkit-linear-gradient(top, #0660a0 0%, #0660a0 100%);
+	background-image: linear-gradient(to bottom, #0660a0 0%, #0660a0 100%);
+	background-color: #0660a0;
+	-moz-box-shadow: 0 3px 6px -3px #0660a0;
+	-webkit-box-shadow: 0 3px 6px -3px #0660a0;
+	box-shadow: 0 3px 6px -3px #0660a0;
+}
+
+.ribbon.top-right.ribbon-default>small:before,
+.ribbon.top-right.ribbon-default>small:after {
+	border-top: 3px solid #0660a0;
+}
+
+.last-post,
+.contact_form input,
+.contact_form textarea,
+.custom-add,
+.custom-add-2 {
+	background: #a7daff;
+}
+
+/** Responsive **/
+@media only screen and (max-width: 768px) {
+	button.menu-toggle {
+		color: #4b4b4b;
+	}
+}

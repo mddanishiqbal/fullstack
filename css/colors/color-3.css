@@ -1,0 +1,220 @@
+.site-branding .mdi h2 {
+	color: #129369 !important;
+}
+
+.specs,
+.portfolio .work-box,
+.website-roadmap .card {
+	background: #b8ffe79d;
+}
+
+.main-navigation {
+	background: #00502b;
+}
+
+.main-navigation a {
+	color: #f7f7f7;
+}
+
+.main-navigation a.active {
+	color: #00da74;
+}
+
+.main-navigation a:hover {
+	color: #00da74;
+}
+
+.header-section,
+.second-header-section,
+.site-footer {
+	background-color: #00da74;
+	background-image: linear-gradient(315deg, #72ffbd 0%, #00502b 74%);
+}
+
+.my_language ul li a {
+	background: #00da74;
+	box-shadow: #87cdff 1.95px 1.95px 8px;
+}
+
+.contact_section h3 i,
+.about-info .service-title h5,
+.portfolio .ios-toolbar p a {
+	color: #04ec80;
+}
+
+.portfolio_details .portfolio_title_left h1,
+.contact_section h3,
+.contact_section h3 a,
+.web_design h1,
+.web_development h1,
+.custom-add .inner-content p span,
+.custom-add .inner-content h4 a,
+.custom-add-2 .inner-content p span,
+.custom-add-2 .inner-content h4 a,
+.services-details-heading h1,
+.second_title {
+	color: #00da74;
+}
+
+.progress-details .progress-line,
+.custom-add .inner-content a,
+.custom-add-2 .inner-content a {
+	background: #22df86;
+}
+
+.progress-details {
+	background: #008648;
+}
+
+.style-switcher-toggler,
+.testimonial-section .carousel-control-prev,
+.testimonial-section .carousel-control-next,
+.genericon-collapse:before {
+	background-color: #006d3a;
+}
+
+.carousel-nav,
+.about_carousel_nav {
+	border-bottom: 2px solid #0dd678;
+}
+
+.text-box h1 span,
+.carousel-nav a,
+.about_carousel_nav a {
+	color: #11cc75;
+}
+
+.carousel-nav a.active,
+.about_carousel_nav a.active {
+	color: #0dd678;
+	background: #b8ffe79d;
+}
+
+.carousel-nav a:hover,
+.about_carousel_nav a:hover {
+	color: #0dd678;
+}
+
+.specs .website-process h1 {
+	color: #009650;
+}
+
+.portfolio h1 span,
+.about-us .about-details h1 span,
+.about-us .count_details .count_no,
+.for_experience .experience_list h1,
+.credentials_list h3 {
+	color: #009650;
+}
+
+.about-us .about-details p a {
+	color: #009650;
+	text-decoration: underline;
+}
+
+.class-info h3,
+.class-info p a,
+.testimonial-item h3 {
+	color: #009650;
+}
+
+.work-content .w-more h1 a,
+.w-title a,
+.work-content .portfolio-name a {
+	color: #009650;
+}
+
+.media-29101 .text .category,
+.section-subtitle span {
+	color: #009650;
+}
+
+.section-subtitle span:before,
+.section-subtitle span:after {
+	background: #009650;
+}
+
+.portfolio_details .recent_project_title,
+.web_design h3,
+.web_development h3 {
+	background: #009650;
+	border-left: 4px solid #1adb81;
+}
+
+.specs .website-process h1 ion-icon {
+	background: #009650;
+}
+
+.service-title h5 {
+	color: #009650;
+}
+
+.for-web-design span,
+.for-web-development span {
+	color: #009650;
+}
+
+.setting_footer h1 span,
+#preloader h1,
+.about-us .title-background h1,
+.portfolio .title-background h1,
+.content .text span,
+.testimonial-section .title-background h1 {
+	color: #009650;
+}
+
+.contact_form button,
+.style-switcher-item p,
+.preloader_item .img-box,
+.testimonial-section .img-box,
+.testimonial-section .decoration-imgs-item,
+.testimonial-section .decoration-circle-item {
+	background: #009650;
+}
+
+.preloader_item .img-box::before,
+.preloader_item .img-box::after,
+.testimonial-section .img-box::before,
+.testimonial-section .img-box::after {
+	border: 1px solid #009650;
+}
+
+.preloader_item .img-box::before,
+.testimonial-section .img-box::before {
+	border-left: 1px solid transparent;
+}
+
+.preloader_item .img-box::after,
+.testimonial-section .img-box::after {
+	border-right: 1px solid transparent;
+}
+
+.ribbon.top-right.ribbon-default>small {
+	background-image: -moz-linear-gradient(top, #009650 0%, #009650 100%);
+	background-image: -webkit-linear-gradient(top, #009650 0%, #009650 100%);
+	background-image: linear-gradient(to bottom, #009650 0%, #009650 100%);
+	background-color: #009650;
+	-moz-box-shadow: 0 3px 6px -3px #009650;
+	-webkit-box-shadow: 0 3px 6px -3px #009650;
+	box-shadow: 0 3px 6px -3px #009650;
+}
+
+.ribbon.top-right.ribbon-default>small:before,
+.ribbon.top-right.ribbon-default>small:after {
+	border-top: 3px solid #009650;
+}
+
+.last-post,
+.contact_form input,
+.contact_form textarea,
+.custom-add,
+.custom-add-2 {
+	background: #abffd8;
+}
+
+/** Responsive **/
+@media only screen and (max-width: 768px) {
+	button.menu-toggle {
+		color: #00d672;
+	}
+}

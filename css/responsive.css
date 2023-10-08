@@ -1,0 +1,1076 @@
+/** Responsive start **/
+
+@media only screen and (max-width: 768px) {
+
+    /** Preloader **/
+    #preloader {
+        background-size: 25%;
+    }
+
+    #preloader h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 55px;
+    }
+
+    #preloader h1 span {
+        font-size: 55px;
+    }
+
+    .preloader_item .img-box {
+        height: 70px;
+        width: 70px;
+        margin: 30px auto 50px;
+        margin-top: 78%;
+    }
+
+    .preloader_item .img-box::before,
+    .preloader_item .img-box::after {
+        content: '';
+        position: absolute;
+        border-radius: 50%;
+        animation: spin 15s linear infinite;
+        -webkit-animation: spin 15s linear infinite;
+    }
+
+    .preloader_item .img-box::before {
+        height: 100px;
+        width: 100px;
+        left: -15px;
+        top: -15px;
+        border-left: 1px solid transparent;
+    }
+
+    .preloader_item .img-box::after {
+        height: 130px;
+        width: 130px;
+        left: -30px;
+        top: -30px;
+        border-right: 1px solid transparent;
+    }
+
+    /** Our brand name **/
+    .site-branding {
+        margin-bottom: 2px;
+        margin-top: -20px;
+    }
+
+    .site-branding .mdi h2 {
+        font-size: 35px !important;
+    }
+
+    .site-branding .mdi .mdi_title {
+        font-size: 35px !important;
+    }
+
+    .site-branding .mdi .mdi_dot {
+        font-size: 35px;
+    }
+
+    /** Main navigation **/
+    .menu-toggle,
+    .main-navigation.toggled .nav-menu {
+        display: block;
+    }
+
+    .main-navigation .menu-toggle {
+        border: 0;
+        background: none;
+        box-shadow: none;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin: 0 auto;
+        outline-style: none;
+        text-shadow: none;
+        text-transform: uppercase;
+        font-family: sans-serif !important;
+        color: #cccccc;
+        padding: 5px 10px;
+    }
+
+    .main-navigation {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        font-size: 16px;
+        padding: 2px 0;
+    }
+
+    .main-navigation a {
+        display: block;
+        padding: 0.5em 0;
+    }
+
+    .main-navigation ul {
+        display: none;
+    }
+
+    .main-navigation a:hover {
+        text-decoration: none;
+    }
+
+    .main-navigation li {
+        float: none;
+        margin: 0;
+        position: relative;
+        padding: 0;
+        text-align: center;
+    }
+
+    .main-navigation li:last-child {
+        border-bottom: 0;
+    }
+
+    .main-navigation ul li>ul {
+        display: block;
+        margin-left: 0;
+    }
+
+    .main-navigation ul ul {
+        border-left: 0;
+        box-shadow: none;
+        display: block;
+        float: none;
+        left: 0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        text-transform: capitalize;
+        z-index: 99999;
+    }
+
+    .main-navigation ul ul li {
+        border-bottom: 0;
+        padding: 0;
+    }
+
+    .menu-toggle {
+        font-size: 30px;
+    }
+
+    /** Header section **/
+    .header-section {
+        height: 100%;
+        min-height: 100%;
+        padding-bottom: 10px;
+    }
+
+
+    /** second header section **/
+    .second-header-section {
+        height: 20vh;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .second-header-section .header-map {
+        position: absolute;
+        top: 20px;
+        left: 50px;
+    }
+
+    .second-header-section .header-map img {
+        width: 70% !important;
+    }
+
+    .second-header-section .navigation_link h1 {
+        font-size: 20px;
+    }
+
+    /** Portfolio Page **/
+    .portfolio_details .portfolio_title_left h1 {
+        font-size: 22px;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    .portfolio_details .portfolio_details_project h1 {
+        margin-bottom: 20px;
+    }
+
+    .recent_portfolio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recent_portfolio .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recent_portfolio_img img {
+        width: 20%;
+    }
+
+    .portfolio_title_right {
+        margin-top: 45px;
+    }
+
+    .codebox {
+        margin-top: 40px;
+        padding-right: 20px !important;
+    }
+
+    .codebox textarea {
+        max-width: 90%;
+        font-size: 12px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-right: 20px !important;
+    }
+
+    .mdi .site-description {
+        font-size: 30px;
+        margin-top: 2px;
+    }
+
+    .header-banner h1 {
+        font-size: 22px;
+    }
+
+    .header-section .small-icon5 {
+        width: 20px !important;
+        position: absolute;
+        bottom: 60px;
+        left: 10px !important;
+        opacity: 0.3;
+    }
+
+    .header-col {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .right-col {
+        flex-basis: 100% !important;
+    }
+
+    .text-box {
+        margin-top: 10px !important;
+        padding: 0px 6px 0px 12px !important;
+    }
+
+    .text-box h5 {
+        font-size: 15px !important;
+    }
+
+    .text-box .header_social {
+        margin-left: 0px !important;
+    }
+
+    .text-box a {
+        font-size: 20px;
+        margin-right: 9px;
+    }
+
+    .text-box h1 {
+        font-size: 22px !important;
+        line-height: 30px !important;
+        margin-top: 5px !important;
+    }
+
+    .text-box p {
+        font-size: 14px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .second-btn {
+        font-size: 11px !important;
+        padding: 10px 20px 10px 20px !important;
+        letter-spacing: 2px !important;
+    }
+
+    .right-bg img {
+        right: 30px !important;
+        margin-top: -10px;
+        width: 54% !important;
+    }
+
+    .content .text span {
+        position: absolute;
+        top: 335px;
+        left: 0px;
+        font-size: 90px;
+    }
+
+    .about-section .small-icon2 {
+        width: 20px !important;
+        position: absolute !important;
+        right: 20px !important;
+        top: -20px !important;
+        opacity: 0.3 !important;
+    }
+
+    .about-section .small-icon4 {
+        width: 250px !important;
+        position: absolute !important;
+        top: -40px !important;
+        left: -140px !important;
+        opacity: 0.4 !important;
+    }
+
+    /** website carousel **/
+    .website-carousel-area {
+        margin-top: 0px;
+    }
+
+    .website-carousel-area .slide {
+        margin-right: 0px !important;
+    }
+
+    .website-carousel-area .slide img {
+        width: 100%;
+        opacity: 1;
+    }
+
+    /** New services section begin **/
+    .content {
+        margin-top: 5px;
+    }
+
+    .carousel-nav {
+        margin-bottom: 20px;
+    }
+
+    .carousel-nav a {
+        font-size: 11px;
+        font-weight: 600;
+        color: #383838;
+        font-family: sans-serif;
+        letter-spacing: 0px;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+
+    .media-29101 .text h1 {
+        font-size: 11px !important;
+        letter-spacing: 1px !important;
+        padding: 6px 0px 6px 10px !important;
+        display: flex !important;
+        margin-right: 3px;
+        margin-top: 5px;
+    }
+
+    .media-29101 .text h1 img {
+        width: 19px !important;
+        height: 18px !important;
+        -webkit-width: 19px !important;
+        -webkit-height: 18px !important;
+        margin-right: 10px !important;
+        margin-top: -1px !important;
+    }
+
+    /** New services section over **/
+
+
+    /** About Me In Short Start **/
+    .specs {
+        margin-top: 20px;
+        padding: 10px 5px 20px 10px;
+        margin-bottom: 20px !important;
+        margin-bottom: 0px;
+    }
+
+    .specs .text-left {
+        margin-top: -50px;
+    }
+
+    .specs .text-right {
+        margin-top: 80px !important;
+    }
+
+    .specs .img-wrapper .absolute {
+        left: 0px;
+    }
+
+    .specs .img-wrapper .laptop-img {
+        width: 82%;
+    }
+
+    .specs .img-wrapper .tablet-img {
+        width: 48%;
+        margin-left: -30px !important;
+    }
+
+    .section-subtitle {
+        margin: 20px 0 0;
+        font-size: 22px !important;
+        line-height: 30px;
+    }
+
+    /** About Me In Short End **/
+
+    /* services section */
+    .services {
+        margin-top: 50px !important;
+    }
+
+    .ser-mobile-details {
+        margin-top: -50px;
+    }
+
+    .service-title {
+        margin-bottom: 0px;
+    }
+
+    .service-title h1 {
+        padding: 0px;
+    }
+
+    .service-title h5 {
+        font-size: 26px !important;
+    }
+
+    .service-title p img {
+        margin-top: -13px;
+        width: 120px;
+    }
+
+    .service-details h5 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .service-details h5 i {
+        font-size: 18px;
+    }
+
+    .service-details p {
+        font-size: 15px;
+    }
+
+    .service-details h1 {
+        font-size: 14px;
+        padding: 12px 0px 12px 0px;
+    }
+
+    .service-img {
+        margin-top: 20px;
+    }
+
+    .services .second-row {
+        margin-top: 40px;
+    }
+
+    .about-section {
+        margin-top: 70px;
+        padding: 60px 20px 60px 20px;
+    }
+
+    .about-box {
+        margin-top: -45px;
+    }
+
+    .about-box h5 {
+        font-size: 20px;
+    }
+
+    .about-box i {
+        font-size: 16px;
+    }
+
+    .about-box h1 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: 10px;
+    }
+
+    .about-box p {
+        font-size: 15px;
+    }
+
+    .about-section .small-icon4 {
+        width: 200px !important;
+        position: absolute;
+        top: -40px;
+        left: -110px !important;
+        opacity: 0.4;
+    }
+
+    .skill-mf {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .progress-details {
+        margin: 1px 0px 0px 0px !important;
+    }
+
+    .progress-details .col-md-12 {
+        margin-bottom: 20px !important;
+    }
+
+    .header-banner .extra-link a {
+        font-size: 12px;
+    }
+
+    .header-banner .extra-link span {
+        font-size: 14px;
+    }
+
+    .header-section .header-map {
+        top: 28%;
+        left: 0%;
+    }
+
+    .header-section .header-map img {
+        width: 100%;
+    }
+
+    .skill-mf span {
+        font-size: 13px;
+    }
+
+    .for_experience {
+        padding-left: 16px;
+    }
+
+    /** Portfolio section start **/
+    .portfolio {
+        padding-top: 30px;
+    }
+
+    .work-box {
+        margin-right: 5px !important;
+    }
+
+    .portfolio .work-box {
+        padding: 0px 5px 0px 5px;
+    }
+
+    .w-title {
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+
+    .work-content .portfolio-name a {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+    .portfolio .title-background {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    .portfolio .title-background h1 {
+        font-size: 118px;
+        margin-top: 60px !important;
+    }
+
+    .about-us {
+        margin-top: 30px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .about-us .service-title h5 {
+        font-size: 26px !important;
+    }
+
+    .about-us .title-background h1 {
+        font-size: 76px;
+        margin-top: 0px !important;
+    }
+
+    .about-us .title-background {
+        top: 0% !important;
+    }
+
+    .about-us .about-details {
+        padding-top: 0px;
+    }
+
+    .about-us .about-details h1 {
+        font-size: 28px;
+    }
+
+    .about-us .count_details {
+        font-size: 34px;
+    }
+
+    .about_carousel_nav {
+        margin-bottom: 20px;
+        margin-top: 45px;
+    }
+
+    .about_carousel_nav a {
+        font-size: 17px;
+        padding: 5px;
+        letter-spacing: 1px;
+    }
+
+    .skill-mf {
+        padding-top: 0px;
+        margin-top: -6px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .skill-mf .progress-details {
+        margin-bottom: 16px !important;
+    }
+
+    .portfolio .title-background {
+        left: -5px;
+        top: -35px !important;
+    }
+
+    .portfolio .title-background h1 {
+        font-size: 76px;
+    }
+
+    .portfolio h1 {
+        font-size: 28px;
+    }
+
+    .portfolio .portfolio-text {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-page .portfolio-details {
+        padding-right: 20px;
+        margin-top: -20px;
+    }
+
+    .portfolio-page h1 {
+        font-size: 20px;
+    }
+
+    .portfolio-page .post-user {
+        margin-top: 5px;
+        display: inline-block;
+    }
+
+    .portfolio-page .post-user p {
+        font-size: 11px;
+    }
+
+    .portfolio-page .post-user .user-name {
+        margin-right: 0px;
+    }
+
+    .portfolio-page .hr-line {
+        margin-top: 20px;
+    }
+
+    .portfolio-page .post-text p,
+    .portfolio-page .html-details p {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    .portfolio-page .post-code-title {
+        margin-top: 15px;
+    }
+
+    .portfolio-page .post-code-title h1 {
+        font-size: 15px;
+    }
+
+    .portfolio-page .html-code {
+        margin-top: 15px;
+    }
+
+    .portfolio-page .html-code xmp {
+        font-size: 12px;
+    }
+
+    .portfolio-page .download-btn {
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .portfolio-page .download-btn a {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .recent-work {
+        margin-top: 40px;
+    }
+
+    .related-work {
+        margin-top: -10px;
+    }
+
+    .related-work .related-title h1 {
+        font-size: 22px !important;
+    }
+
+    .class-thumb {
+        margin-bottom: 20px;
+    }
+
+    /** Portfolio section end **/
+
+    /** Custom add start **/
+    .custom-add {
+        margin-top: -130px;
+        padding: 40px 0px 60px 0px;
+    }
+
+    .custom-add-2 {
+        padding: 40px 0px 60px 0px;
+        transform: translateY(08%);
+        margin-top: -60%;
+    }
+
+    .custom-add .inner-content p,
+    .custom-add-2 .inner-content p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .custom-add .inner-content h4,
+    .custom-add-2 .inner-content h4 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .custom-add .inner-content .col-md-4,
+    .custom-add-2 .inner-content .col-md-4 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .custom-add .inner-content a {
+        padding: 8px 20px 8px 20px;
+        margin-right: 0px;
+    }
+
+    /** Custom add end **/
+
+    /**Testimonial section begin **/
+    .testimonial-section {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    .testimonial-section .main-navigation {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        background: transparent;
+        padding-bottom: 20px;
+        padding-top: 40px;
+        float: left;
+        margin: 10px;
+        font-size: 16px;
+        padding: 2px 0;
+    }
+
+    .testimonial-section .title-background h1 {
+        font-size: 60px;
+        font-weight: 800;
+        margin-top: -78px !important;
+    }
+
+    .testimonial-section .img-box {
+        height: 100px;
+        width: 100px;
+    }
+
+    .testimonial-section .img-box::before {
+        height: 130px;
+        width: 130px;
+    }
+
+    .testimonial-section .img-box::after {
+        height: 160px;
+        width: 160px;
+    }
+
+    .testimonial-section .decoration-imgs-item:nth-child(1) {
+        height: 50px;
+        width: 50px;
+        left: 4%;
+        top: 33%;
+    }
+
+    .testimonial-section .decoration-imgs-item:nth-child(2) {
+        height: 60px;
+        width: 60px;
+        left: 76%;
+        top: 13%;
+    }
+
+    .testimonial-section .decoration-imgs-item:nth-child(3) {
+        height: 40px;
+        width: 40px;
+        left: 10%;
+        top: 10%;
+    }
+
+    .testimonial-item h3 {
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+    }
+
+    .testimonial-item .text-1 {
+        font-size: 14px !important;
+        margin-top: 30px;
+    }
+
+    .testimonial-section .carousel-control-prev,
+    .testimonial-section .carousel-control-next {
+        top: -150px;
+    }
+
+    /**Testimonial section over **/
+
+    /** Contact section begin **/
+    .contact_form .first_row input {
+        margin-top: 20px !important;
+    }
+
+    .google_map {
+        margin-top: 40px;
+        margin-bottom: 30%;
+    }
+
+    .google_map .contact-wrap iframe {
+        height: 30vh;
+    }
+
+    .info-wrap h5 {
+        font-size: 20px;
+    }
+
+    .info-wrap i {
+        font-size: 15px;
+    }
+
+    .info-wrap .dbox .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .info-wrap .dbox .icon span {
+        font-size: 15px;
+        color: #daa520;
+    }
+
+    /** Contact section over **/
+
+    /** Language logo slider begin **/
+    .language {
+        padding-bottom: 30px;
+        margin-top: -30px;
+    }
+
+    .language img {
+        opacity: .5;
+    }
+
+    /** Language logo slider over **/
+
+    /** website slider **/
+    .website-carousel {
+        margin: 2% 3.3% 0% 3.3%;
+    }
+
+    .website-carousel .slide img {
+        width: 100%;
+    }
+
+    /** Footer section begin **/
+    .site-footer img {
+        width: 120px;
+        margin-bottom: 10px;
+    }
+
+    .site-footer h1 {
+        font-size: 13px;
+    }
+
+    /** Footer section over **/
+
+    /** web packages and services begin **/
+    .web-packages {
+        padding: 20px 5px 0px 5px;
+    }
+
+    .web-packages img {
+        width: 60px;
+        margin-top: 20px;
+    }
+
+    .web-packages h2 {
+        font-size: 20px;
+    }
+
+    .web-packages p {
+        font-size: 14px;
+    }
+
+    .web-packages .right-web {
+        text-align: left;
+    }
+
+    .web-packages .right-web .web-details h2 {
+        text-align: left;
+    }
+
+    .web-packages .right-web .web-details p {
+        text-align: left;
+    }
+
+    /** web packages and services over **/
+    .spad {
+        margin-top: -70px;
+    }
+
+    .website-add img {
+        width: 100%;
+    }
+
+    .communicate {
+        margin-top: 5px;
+    }
+
+    .quick-contact {
+        margin-top: 40px !important;
+    }
+
+    .slick-slide img {
+        max-width: 100%;
+    }
+
+    .work__item.wide__item {
+        width: 100%;
+    }
+
+    .work__item {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .work__item.large__item {
+        width: 100%;
+    }
+
+    .work__item.small__item {
+        max-width: 100vw;
+        background-size: cover;
+    }
+
+    .work__gallery {
+        margin-right: 0;
+    }
+
+    .work-section {
+        margin-top: -10px;
+    }
+
+    .swiper-section {
+        margin-top: 30px !important;
+    }
+
+    .photo-classes {
+        margin-top: 0px;
+    }
+
+    .team {
+        margin-top: 10px;
+    }
+
+
+    /** About page **/
+    .about_page {
+        margin-bottom: 65% !important;
+    }
+
+    .about_page .content {
+        margin-top: 50px;
+    }
+
+
+    /** Portfolio page **/
+    .portfolio_page {
+        margin-bottom: 130px;
+    }
+
+    /** Services Page start **/
+    .web_design,
+    .web_development {
+        margin-top: 25px !important;
+    }
+
+    .web_design_details {
+        padding-left: 15px !important;
+    }
+
+    .web_design_details h1 {
+        margin-top: 20px;
+    }
+
+    .web_design h1,
+    .web_development h1 {
+        font-size: 26px;
+    }
+
+    .services-details {
+        margin-bottom: 36%;
+    }
+
+    .services-details-heading h1 {
+        font-size: 26px;
+        margin-top: -60px;
+        text-align: left;
+    }
+
+    .services-details-heading p {
+        font-size: 17px;
+        padding: 0px;
+        margin-top: 5px;
+        text-align: left;
+    }
+
+
+    /** Contact page **/
+    .contact_section {
+        margin-top: 25px;
+    }
+
+    .contact_section h1 {
+        font-size: 26px;
+    }
+
+    /** website build roadmap start **/
+
+    .website-roadmap .card {
+        margin-bottom: 25px;
+    }
+
+    .website-roadmap .card img {
+        width: 32px;
+    }
+
+    .website-roadmap .card h1 {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    /** website build roadmap end **/
+    /** Services Page end **/
+}
+
+@media only screen and (max-width: 812px) {
+    .header-section {
+        height: 100vh !important;
+    }
+
+    .right-bg img {
+        top: 64px !important;
+    }
+}
+
+/** Responsive end **/
